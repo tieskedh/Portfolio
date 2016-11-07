@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="dhaan.ga.portfolio.MainActivity">
+
+    <TextView
+        android:id="@+id/lblMyProjects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/my_projects"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/primary_text_light" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnMovieProject"
+        style="@style/MenuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/popular_movies" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnHawk"
+        style="@style/MenuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stock_hawk" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnBuildItBigger"
+        style="@style/MenuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/build_it_bigger" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnMaterial"
+        style="@style/MenuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/make_your_app_material" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnUbiquitous"
+        style="@style/MenuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go_ubiquitous" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnCapstone"
+        style="@style/MenuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_capstone" />
+</LinearLayout>
